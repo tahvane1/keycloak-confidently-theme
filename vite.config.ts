@@ -7,7 +7,8 @@ export default defineConfig({
     plugins: [
         react(),
         keycloakify({
-            accountThemeImplementation: "none"
+            themeName: "confidently-meo",
+            accountThemeImplementation: "Single-Page"
         })
     ]
 });
