@@ -1,0 +1,16 @@
+body.kcBodyClass {
+    background: none;
+}
+
+:root {
+    --pf-global--primary-color--100: #0cb14c;
+    --pf-global--primary-color--200: #43b56f;
+}
+
+div.confidently-logo-text {
+    background-image: url("/public/confidently_logo_header.png");
+    background-repeat: no-repeat;
+    height: 63px;
+    width: 320px;
+    margin: 0 auto;
+}
