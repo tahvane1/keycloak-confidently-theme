@@ -11,7 +11,19 @@ const kcContextExtension: KcContextExtension = {
         ...kcEnvDefaults
     }
 };
-const kcContextExtensionPerPage: KcContextExtensionPerPage = {};
+
+const { getKcContextMock: getKcContextMock_base } =  createGetKcContextMock({
+        kcContextExtension: {},
+        kcContextExtensionPerPage: {},
+        overrides: {},
+        overridesPerPage:{}
+    });
+
+const kcContextExtensionPerPage: KcContextExtensionPerPage = {
+    "login.ftl": {
+        social: getKcContextMock_base( {pageId: "login.ftl"}).social
+    }   
+};
 
 export const { getKcContextMock } = createGetKcContextMock({
     kcContextExtension,

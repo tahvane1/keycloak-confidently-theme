@@ -435,7 +435,7 @@
   resolved "https://nexus.local.confidently.fi/repository/npm-all/@storybook/react-dom-shim/-/react-dom-shim-8.3.3.tgz"
   integrity sha512-0dPC9K7+K5+X/bt3GwYmh+pCpisUyKVjWsI+PkzqGnWqaXFakzFakjswowIAIO1rf7wYZR591x3ehUAyL2bJiQ==
 
-"@storybook/react-vite@^8.3.3":
+"@storybook/react-vite@^8.1.10":
   version "8.3.3"
   resolved "https://nexus.local.confidently.fi/repository/npm-all/@storybook/react-vite/-/react-vite-8.3.3.tgz"
   integrity sha512-vzOqVaA/rv+X5J17eWKxdZztMKEKfsCSP8pNNmrqXWxK3pSlW0fAPxtn1kw3UNxGtAv71pcqvaCUtTJKqI1PYA==
@@ -450,7 +450,7 @@
     resolve "^1.22.8"
     tsconfig-paths "^4.2.0"
 
-"@storybook/react@^8.3.3", "@storybook/react@8.3.3":
+"@storybook/react@^8.1.10", "@storybook/react@8.3.3":
   version "8.3.3"
   resolved "https://nexus.local.confidently.fi/repository/npm-all/@storybook/react/-/react-8.3.3.tgz"
   integrity sha512-fHOW/mNqI+sZWttGOE32Q+rAIbN7/Oib091cmE8usOM0z0vPNpywUBtqC2cCQH39vp19bhTsQaSsTcoBSweAHw==
@@ -1887,12 +1887,12 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-keycloakify@^11.1.0:
-  version "11.1.0"
-  resolved "https://nexus.local.confidently.fi/repository/npm-all/keycloakify/-/keycloakify-11.1.0.tgz"
-  integrity sha512-EPvrZem4wSlQGiYObn2/hF1Bg+xMo+uABZhfZJ26fB1D02VEMWezuoe1xvHBwTDt91j9gQjXq8H18S5ObWBMXQ==
+keycloakify@^11.2.10:
+  version "11.2.10"
+  resolved "https://nexus.local.confidently.fi/repository/npm-all/keycloakify/-/keycloakify-11.2.10.tgz"
+  integrity sha512-0G9NuiMSSBvsvjKJPQ+XHjGj1BdHxrhQMliTa9CYhoMOSpnGskbqVdWB6+iREmg7LJqGuM++LOJLJ+KmtljWdw==
   dependencies:
-    tsafe "^1.6.6"
+    tsafe "^1.7.5"
 
 keyv@^4.5.3:
   version "4.5.4"
@@ -2555,7 +2555,7 @@ statuses@2.0.1:
   resolved "https://nexus.local.confidently.fi/repository/npm-all/statuses/-/statuses-2.0.1.tgz"
   integrity sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==
 
-storybook@^8.3.3:
+storybook@^8.1.10, storybook@^8.3.3:
   version "8.3.3"
   resolved "https://nexus.local.confidently.fi/repository/npm-all/storybook/-/storybook-8.3.3.tgz"
   integrity sha512-FG2KAVQN54T9R6voudiEftehtkXtLO+YVGP2gBPfacEdDQjY++ld7kTbHzpTT/bpCDx7Yq3dqOegLm9arVJfYw==
@@ -2642,10 +2642,10 @@ ts-dedent@^2.0.0, ts-dedent@^2.2.0:
   resolved "https://nexus.local.confidently.fi/repository/npm-all/ts-dedent/-/ts-dedent-2.2.0.tgz"
   integrity sha512-q5W7tVM71e2xjHZTlgfTDoPF/SmqKG5hddq9SzR49CH2hayqRKJtQ4mtRlSxKaJlR/+9rEM+mnBHf7I2/BQcpQ==
 
-tsafe@^1.6.6:
-  version "1.7.2"
-  resolved "https://nexus.local.confidently.fi/repository/npm-all/tsafe/-/tsafe-1.7.2.tgz"
-  integrity sha512-dAPfQLhCfCRre5qs+Z5Q2a7s2CV7RxffZUmvj7puGaePYjECzWREJFd3w4XSFe/T5tbxgowfItA/JSSZ6Ma3dA==
+tsafe@^1.7.5:
+  version "1.7.5"
+  resolved "https://nexus.local.confidently.fi/repository/npm-all/tsafe/-/tsafe-1.7.5.tgz"
+  integrity sha512-tbNyyBSbwfbilFfiuXkSOj82a6++ovgANwcoqBAcO9/REPoZMEQoE8kWPeO0dy5A2D/2Lajr8Ohue5T0ifIvLQ==
 
 tsconfig-paths@^4.2.0:
   version "4.2.0"

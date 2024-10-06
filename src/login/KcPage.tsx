@@ -8,7 +8,10 @@ import "../main.css";
 const UserProfileFormFields = lazy(
     () => import("keycloakify/login/UserProfileFormFields")
 );
-
+const Login = lazy(() => import("./pages/Login"));
+const LoginPasskeysConditionalAuthenticate = lazy(
+    () => import("./pages/LoginPasskeysConditionalAuthenticate")
+);
 const doMakeUserConfirmPassword = true;
 
 export default function KcPage(props: { kcContext: KcContext }) {
@@ -32,10 +35,26 @@ export default function KcPage(props: { kcContext: KcContext }) {
                                 doMakeUserConfirmPassword={doMakeUserConfirmPassword}
                             />
                         );
+                    case "login-passkeys-conditional-authenticate.ftl":
+                        return (
+                            <LoginPasskeysConditionalAuthenticate
+                                {...{ kcContext, i18n, classes }}
+                                Template={Template}
+                                doUseDefaultCss={true}
+                            />
+                        );
+                    case "login.ftl":
+                        return (
+                            <Login
+                                {...{ kcContext, i18n, classes }}
+                                Template={Template}
+                                doUseDefaultCss={true}
+                            />
+                        );
                 }
             })()}
         </Suspense>
     );
 }
 
-const classes = {kcFormHeaderClass:"confidently-logo-text"} satisfies { [key in ClassKey]?: string };
+const classes = {} satisfies { [key in ClassKey]?: string };
