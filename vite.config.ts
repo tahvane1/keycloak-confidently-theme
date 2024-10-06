@@ -8,13 +8,12 @@ export default defineConfig({
         react(),
         keycloakify({
             themeName: "confidently-meo",
-              accountThemeImplementation: "none",
-        //    accountThemeImplementation: "Single-Page",
-            keycloakVersionTargets: {
+            accountThemeImplementation: "Single-Page",
+             keycloakVersionTargets: {
                 "22-to-25": true,
-                "26-and-above":true,
+                "26-and-above": true,
                 "all-other-versions": false
-            },
+            }, 
         })
     ]
 });

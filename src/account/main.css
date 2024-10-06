@@ -1,0 +1,15 @@
+body.kcBodyClass {
+    background: none;
+}
+
+:root {
+    --pf-global--primary-color--100: #0cb14c;
+    --pf-global--primary-color--200: #43b56f;
+}
+
+
+.pf-v5-c-brand {
+    --pf-v5-c-brand--Width: auto;
+    --pf-v5-c-brand--Height: auto;
+    content: url("/public/Confidently-logo-white.png");
+}
